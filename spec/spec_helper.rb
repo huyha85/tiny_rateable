@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
+require 'factory_girl_rails'
 require 'tiny_rateable'
 
 # Requires supporting files with custom matchers and macros, etc,
@@ -8,5 +9,5 @@ require 'tiny_rateable'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+
 end

@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "tiny_rateable"
   gem.homepage = "http://github.com/huyha85/tiny_rateable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Add rating interface for ActiveRecord}
+  gem.description = %Q{Add ability for an ActiveRecord model to have a rating system with ajax view partial.}
   gem.email = "hhuy424@gmail.com"
   gem.authors = ["Huy Ha"]
   # dependencies defined in Gemfile
